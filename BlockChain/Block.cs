@@ -130,7 +130,6 @@ namespace BlockChain
             {
                 hex += String.Format("{0:x2}", x);
             }
-
             return hex;
         }
 
@@ -156,7 +155,7 @@ namespace BlockChain
         }
 
         /// <summary>
-        /// Выполнить десериализацию объекта Block из JSON строки.
+        /// Выполнить десериализацию объекта Block из JSON строки
         /// </summary>
         /// <param name="json"></param>
         /// <returns></returns>
